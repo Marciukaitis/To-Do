@@ -13,8 +13,8 @@
 
 
   <!-- ---------------------- logica aplicada en register -------------------- -->
-  <script src="./scripts/utils.js"></script>
-  <script src="./scripts/signup.js"></script>
+  <script type="module" src="./scripts/utils.js"></script>
+    <script type="module" src="./scripts/signup.js"></script>
 
 </head>
 
@@ -46,6 +46,7 @@
 
       <label>Repetir contraseña</label>
       <input id="inputPasswordRepetida" type="password">
+      <span id="passwordError" type="error"></span>
 
       <button type="submit">Crear Cuenta</button>
     </form>
